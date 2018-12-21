@@ -1,0 +1,465 @@
+#headerNavigationContainer {
+
+    background-color:#fff;
+
+}
+
+.gris_blanco_amx{
+    
+    background-color:#717171;
+    color: #fff;
+}
+
+#franja_roja{
+    
+    background-color:#eb1e00;
+    min-height: 20px;
+    
+}
+
+.pkp_structure_content {
+    
+    padding-top: 0px  !important;
+    
+}
+
+.banner_princial_amx{
+    
+    background-color: #eb1e00;
+    background:url(http://revistas.univalle.edu.co/public/site/magazine.jpg); /* Nuestra imagen de fondo */
+	background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+ 
+	font-family:helvetica, arial, sans-serif;
+	line-height:20px;
+    
+    min-height: 400px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bordes_amx{
+    
+    padding-top: 10px !important;
+    padding-bottom: 0px !important;
+    padding-left: 10% !important;
+    
+}
+
+#pkp_content_main{
+    
+    width: 100%;
+    
+}
+
+.profile {
+    
+        background-color:#717171;
+    
+}
+
+.fondoOscuro_letras{
+    
+    color: white;
+    background-color:  rgba(0,0,0,0.6) !important;
+    padding-top: 1px !important;
+    padding-right: 5px !important;
+    padding-bottom: 1px !important;
+    padding-left: 8px !important;
+        
+}
+
+#logo_univalle{
+	background-size: 73.35px 100px !important;
+}
+
+/* NAV DENTRO DE REVISTA */
+#pkp_content_nav{
+    
+    background-color:#eb1e00;	
+    
+}
+.pkp_navigation_primary{
+    
+	text-align:center !important;
+    /*display: inherit  !important;*/
+	max-width: 100% !important;
+	max-height: 30px;
+}
+.pkp_navigation_primary li{
+    
+	text-align:center;
+    display: inline-block;
+	font-size: 19px;	
+	border-right: 1px solid #fff;
+	margin: 6px 0;
+	max-height: 30px;
+	vertical-align: middle;
+	float: center;
+	
+}
+
+.pkp_navigation_primary li:last-child{
+	
+	/*border-right: 0px solid #fff;*/
+}
+.pkp_navigation_primary  li:first-child  {
+	
+	border-left: 1px solid #fff;
+}
+
+.pkp_navigation_primary li:hover a{
+	
+	text-decoration:none !important;
+	color:#000 !important;
+	border-color: #100f0f00 !important;
+	border-bottom: 0px ;
+	transition: 0.2s;	
+}
+
+.pkp_navigation_primary li:hover {
+	
+	background-color:#fff;
+	text-decoration:none !important;
+	color:#000 !important;
+	border-color: #100f0f00 !important;	
+	transition: 0.2s;
+}
+
+
+
+.pkp_navigation_primary li a{
+	padding: 1px 19px !important;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+/* BUSCADOR */
+
+.gsc-control-cse {
+	border: 0px  !important;
+	background-color: #FFFFFF80 !important;
+}
+
+.gsib_a {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.gsc-input{
+
+	padding-right: 0px !important;
+	
+}
+.gsc-search-button{
+	width: 71px !important;
+	height: 30px !important;
+	border-color: #6660 !important;
+	background-color: #E22323 !important;
+}
+.gsc-input-box{
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+/*  LOGIN FORM */
+
+#login{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* CONTENIDO REGISTRO USU*/
+.page{
+    
+    
+    color: black !important;
+    padding-top: 20px !important;
+    padding-right: 10% !important;
+    padding-bottom: 20px !important;
+    padding-left: 10% !important;
+}
+.label{
+    color:black !important;
+    align-content: left; 
+    text-align:left !important;
+}
+
+/* IMAGEN SECTIONS */
+.obj_issue_toc .heading a img{
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+
+/* CONTENIDO ENTRY */
+.abstract,.description{
+    
+    text-align: justify;
+}
+
+.main_entry{
+    
+    width: 70% !important;   
+}
+
+.entry_details{
+    
+    width: 30% !important; 
+}
+
+/*titulo revistas */
+
+
+#table_add_cont table{
+    
+     text-align: justify;
+     margin-right: 5px;
+    
+}
+
+/* contenedor de ACTUAL*/
+.obj_issue_toc{
+	overflow: hidden;
+}
+
+/* titulo listado*/
+#titulo_intro_amx div{
+	background: #FF0029;
+	text-align: center;
+	height: 40px;
+	color: #fff;
+	font-size: x-large; 
+ 
+ }
+
+/* LISTA DE REVISTAS PAGINA PRINCIPAL */
+
+.body .description, .body .links{
+	display: none !important;
+}
+
+
+/* li imagen */
+.thumb {
+	float: none !important;
+	width: 100% !important;
+	height: 223.3px;	
+	
+}
+/* IMAGEN */
+.journals  .thumb a img{
+	margin: 15%;
+	max-height: 231px;
+	text-align:center;
+	
+	-webkit-box-shadow: 10px 11px 6px 0px rgba(0,0,0,0.44);
+	-moz-box-shadow: 10px 11px 6px 0px rgba(0,0,0,0.44);
+	box-shadow: 8px 8px 6px 0px rgba(0,0,0,0.44);	
+	
+	transition: 0.3s;
+}
+.journals  .thumb a img:hover{
+	margin: 18%;
+	max-height: 231px;
+	text-align:center;
+	
+	-webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.44);
+	-moz-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.44);
+	box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.44);	
+
+}
+
+/* BODY - TITULO REVISTA */
+.journals .body{
+	float: none !important;
+	width: 100% !important;
+	padding-top: 8%;
+}
+.journals .body  h3 {
+	min-height:46px;	
+	background-color: #FF0029;
+}
+.journals .body  h3 a {
+	min-height:46px;
+
+	margin-left: 5%;
+	text-align:center;
+	color:#626262;
+	background-color: #fff;
+	
+	padding-top:3%;
+	padding-bottom:3%;
+}
+
+/*ORGANIZAR LISTAS*/
+.page_index_site .journals ul
+{
+PADDING-RIGHT: 0px;
+PADDING-LEFT: 0px;
+FLOAT: left;
+PADDING-BOTTOM: 0px;
+MARGIN: 15px 0px;
+WIDTH: 100%;
+PADDING-TOP: 0px;
+LIST-STYLE-TYPE: none;
+}
+
+.page_index_site .journals ul li
+{
+max-width: 250px;
+height: 360px;
+
+
+margin-right: 10px !important;
+margin-top: 10px !important;
+margin-bottom: 10px !important;
+margin-left: 10px !important;
+
+PADDING-RIGHT: 2px;
+DISPLAY: inline;
+PADDING-LEFT: 2px;
+FLOAT: left;
+PADDING-BOTTOM: 2px;
+WIDTH: 33%;
+PADDING-TOP: 2px;
+
+padding: 1px !important;
+
+-webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.33);
+-moz-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.33);
+box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.33);
+} 
+
+/*ORGANIZAR LISTAS PARA VOLUMENES EN LINEA*/
+.page_issue_archive .issues_archive 
+{
+PADDING-RIGHT: 0px;
+PADDING-LEFT: 0px;
+FLOAT: left;
+PADDING-BOTTOM: 0px;
+MARGIN: 15px 0px;
+WIDTH: 100%;
+PADDING-TOP: 0px;
+LIST-STYLE-TYPE: none;
+}
+
+.page_issue_archive .issues_archive li
+{
+max-width: 250px;
+height: 360px;
+
+
+margin-right: 10px !important;
+margin-top: 10px !important;
+margin-bottom: 10px !important;
+margin-left: 10px !important;
+
+PADDING-RIGHT: 2px;
+DISPLAY: inline;
+PADDING-LEFT: 2px;
+FLOAT: left;
+PADDING-BOTTOM: 2px;
+WIDTH: 33%;
+PADDING-TOP: 2px;
+
+padding: 1px !important;
+
+-webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.33);
+-moz-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.33);
+box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.33);
+} 
+.page_issue_archive .issues_archive li .cover img{
+	
+	margin: 15%;
+	min-width: 100%;
+	max-height: 231px;
+	text-align:center;
+	
+	-webkit-box-shadow: 10px 11px 6px 0px rgba(0,0,0,0.44);
+	-moz-box-shadow: 10px 11px 6px 0px rgba(0,0,0,0.44);
+	box-shadow: 8px 8px 6px 0px rgba(0,0,0,0.44);	
+	
+	transition: 0.3s;
+	
+}
+
+.page_issue_archive .issues_archive li .cover img:hover{
+	margin: 18%;
+	min-width: 100%;
+	max-height: 231px;
+	text-align:center;
+	
+	-webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.44);
+	-moz-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.44);
+	box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.44);	
+
+}
+
+.obj_issue_summary .cover {
+
+    float: initial !important;
+    width: 70% !important;
+    height: auto !important;
+    margin-right: 20px !important;
+
+}
+
+.issues_archive li .obj_issue_summary .title{
+	text-align:center;
+}
+
+.obj_issue_summary .description{
+	display:none;
+}
+
+.obj_issue_summary{text-align:center}
+/*FOOTER*/
+
+.home-copyright {
+    background: #303030;
+    font-size: 13px;
+	color: #fff;
+}
+.home-copyright a{
+    color:#FBB040 ;
+}
+
+.borde_blanco{
+border-left: 1px solid #fff;
+}
+
+.redes_sociales_foot{
+PADDING-RIGHT: 0px;
+PADDING-LEFT: 0px;
+FLOAT: left;
+PADDING-BOTTOM: 0px;
+MARGIN: 15px 0px;
+WIDTH: 100%;
+PADDING-TOP: 0px;
+LIST-STYLE-TYPE: none;
+list-style: none;
+}
+
+.redes_sociales_foot li{
+	
+PADDING-RIGHT: 2px;
+DISPLAY: inline;
+PADDING-LEFT: 2px;
+FLOAT: left;
+PADDING-BOTTOM: 2px;
+WIDTH: 33%;
+PADDING-TOP: 2px;
+	
+}
+
+
+
+.block_developed_by .content a{
+	color: #fff
+}

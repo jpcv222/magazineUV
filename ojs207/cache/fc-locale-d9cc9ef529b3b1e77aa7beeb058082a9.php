@@ -1,0 +1,18 @@
+<?php return array (
+  'plugins.generic.googleAnalytics.displayName' => 'Módulo Google Analytics',
+  'plugins.generic.googleAnalytics.description' => 'Incorpore Google Analytics a OJS, la aplicación de Google para el análisis del tráfico de un sitio web. Debe tener una cuenta de Google Analytics ya configurada. Visite la página de <a href="http://www.google.com/analytics/" title="Google Analytics site">Google Analytics</a> para más información.',
+  'plugins.generic.googleAnalytics.manager.settings' => 'Configuración',
+  'plugins.generic.googleAnalytics.manager.googleAnalyticsSettings' => 'Configuración de Google Analytics',
+  'plugins.generic.googleAnalytics.manager.settings.description' => '<p>Con este módulo activado, Google Analytics puede recoger y analizar el uso y el tráfico del sitio web de esta revista. Este módulo requiere una cuenta de Google Analytics ya configurada. Visite la página de<a href="http://www.google.com/analytics/" title="Google Analytics site">Google Analytics</a> para más información.</p><p>Google Analytics necesita 24 horas para obtener las estadísticas y realizar el informe. Durante este tiempo, la función "Comprobar estado" puede informar de forma imprecisa si se detectó el código de seguimiento necesario para la revista.</p>',
+  'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Número de cuenta',
+  'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions' => 'En Google Analytics, haga clic en "Comprobar estado" para ver el código de seguimiento de su sitio web. Para el código de seguimiento antiguo, se muestra el número de cuenta en el código de seguimiento como: _uacct = "###". Para el código de seguimiento nuevo, se muestra el número de cuenta en el código de seguimiento como: var pageTracker = _gat._getTracker("###"). Introduzca el texto que corresponda a ###.',
+  'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Introduzca un número de cuenta.',
+  'plugins.generic.googleAnalytics.manager.settings.trackingCode' => 'Código de seguimiento',
+  'plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired' => 'Seleccione el código de seguimiento que se vaya a utilizar.',
+  'plugins.generic.googleAnalytics.manager.settings.urchin' => 'Código de seguimiento antiguo (urchin.js)',
+  'plugins.generic.googleAnalytics.manager.settings.ga' => 'Código de seguimiento nuevo (ga.js)',
+  'plugins.generic.googleAnalytics.authorAccount' => 'Número de cuenta de Google Analytics',
+  'plugins.generic.googleAnalytics.authorAccount.description' => 'Para seguir el número de lectores de un artículo publicado mediante Google Analytics, introduzca un número de cuenta a continuación (p. ej.  UA-xxxxxx-x).',
+  'plugins.generic.googleAnalytics.authorAccountInvalid' => 'No es válido el uso de uno o más números de cuenta de Google Analytics para los autores/as del envío.',
+  'plugins.generic.googleAnalytics.manager.settings.analytics' => 'Nuevo código de seguimiento para Universal Analytics (analytics.js)',
+); ?>

@@ -1,0 +1,15 @@
+<?php return array (
+  'plugins.importexport.METSExport.displayName' => 'Módulo de exportación METS XML',
+  'plugins.importexport.METSExport.description' => 'Exportar revistas en METS XML',
+  'plugins.importexport.METSExport.settings' => 'Configuración',
+  'plugins.importexport.METSExport.export' => 'Exportar datos',
+  'plugins.importexport.METSExport.export.issues' => 'Exportar números',
+  'plugins.importexport.METSExport.export.selectIssue' => 'Seleccione los números que desee exportar.',
+  'plugins.importexport.METSExport.export.error.IssuesNotFound' => 'Ningún número se corresponde con la Id. indicada "{$issueId}".',
+  'plugins.importexport.METSExport.export.error.unknownIssue' => 'Ruta de revista desconocida {$journalPath}',
+  'plugins.importexport.METSExport.settings.FContent' => 'Utilice una codificación base64 para el contenedor de contenido (content wrapper)',
+  'plugins.importexport.METSExport.settings.FLocat' => 'Utilice una URL del flujo de bits (bitstream) para el contenedor de contenido (content wrapper)',
+  'plugins.importexport.METSExport.settings.organization' => 'METS: atributo para la organización de elementos agentes',
+  'plugins.importexport.METSExport.settings.preservationLevel' => 'Nivel de conservación PREMIS',
+  'plugins.importexport.METSExport.settings.exportSuppFiles' => 'Exportar archivos complementarios',
+); ?>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/lensGalley/locale/fi_FI/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.generic.lensGalley.displayName">eLife Lens</message>
+	<message key="plugins.generic.lensGalley.description">Tämä lisäosa muuntaa JATS XML -muotoisen artikkelin HTML-muotoon käyttämällä eLife Lens -ohjelmistoa.</message>
+	
+	<message key="plugins.generic.lensGalley.translate.back">Takaisin</message>
+	
+</locale>

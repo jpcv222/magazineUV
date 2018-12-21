@@ -1,0 +1,12 @@
+<?php return array (
+  'plugins.generic.backup.name' => 'Módulo de copia de seguridad',
+  'plugins.generic.backup.description' => 'Este módulo crea una copia de seguridad de la instalación.',
+  'plugins.generic.backup.link' => 'Descargar copia de seguridad',
+  'plugins.generic.backup.longdescription' => '<p>Los siguientes enlaces permiten al administrador/a del sitio descargar una copia de seguridad completa de los diversos componentes de una instalación. Una copia de seguridad completa contiene <strong>todos</strong> los siguientes componentes. Consulte la documentación técnica si desea obtener más información sobre cómo se relacionan estos componentes entre sí.</p>',
+  'plugins.generic.backup.db' => 'Base de datos',
+  'plugins.generic.backup.files' => 'Archivos',
+  'plugins.generic.backup.code' => 'Código',
+  'plugins.generic.backup.db.config' => '{$footNoteNum}. <strong>Advertencia:</strong> la herramienta de volcado de la base de datos no se configuró en el archivo de configuración config.inc.php. La configuración depende de la configuración del servidor y del tipo de base de datos en uso. Debe especificarse en una sección llamada [cli], en una opción de configuración llamada "volcado". Si utiliza MySQL, utilice la herramienta mysqldump, p. ej.:<br/> <pre>[cli] dump = "/usr/bin/mysqldump -h %s -u %s -p%s %s" </pre> El número de "%s" resultados se reemplazarán, en orden:<ol> <li>Nombre del host de la base de datos</li> <li>Nombre de usuario/a de la base de datos</li> <li>Contraseña de la base de datos</li> <li>Nombre de la base de datos</li> </ol>Tenga en cuenta que esto significa que se debe especificar la contraseña de la base de datos en la línea de comandos, lo que puede constituir un riesgo para la seguridad.<br/><br/>',
+  'plugins.generic.backup.tar.config' => '{$footNoteNum}. <strong>Advertencia:</strong> la herramienta "tar" no se configuró en el archivo de configuración config.inc.php. La configuración depende de la configuración del servidor. Debe especificarse en una sección llamada [cli], en una opción de configuración llamada "tar", especificando la ruta de la aplicación "tar", esto es: <br/> <pre>[cli] tar = "/bin/tar" </pre><br/>',
+  'plugins.generic.backup.failure' => '<strong>Advertencia:</strong> puede que se produjera un error durante el proceso de creación de la copia de seguridad. La razón más frecuente suelen ser los permisos de archivos.',
+); ?>

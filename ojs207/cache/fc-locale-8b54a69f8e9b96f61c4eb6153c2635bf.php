@@ -1,0 +1,16 @@
+<?php return array (
+  'plugins.generic.openads.description' => 'Este Complemento OpenAds permite insertar anuncios dinámicos provenientes del servidor OpenAds en las páginas de ojs.',
+  'plugins.generic.openads.descriptionUnconfigured' => 'El Complemento OpenAds permite insertar anuncios dinámicos provenientes del servidor OpenAds en las páginas de OJS. <strong>Por favor, lea el archivoREADME en plugins/generic/openAds para información sobre cómo activar este Complemento.</strong>',
+  'plugins.generic.openads' => 'Complemento OpenAds',
+  'plugins.generic.openads.settings.description' => 'Utilice este formulario para seleccionar las zonas de anuncios OpenAds que se mostrarán en OJS.',
+  'plugins.generic.openads.manager.settings' => 'Opciones',
+  'plugins.generic.openads.error.configFileNotFound' => 'El archivo de configuración, {$filename}, no está accesible.',
+  'plugins.generic.openads.error.missingParameter' => 'Al menos uno de los parámetros de configuración necesarios de OpenAds no ha podido leerse del archivo de configuración. Los parámetros necesarios son dbhost, dbuser, dbpassword, dbname, url_prefix, y table_prefix.',
+  'plugins.generic.openads.error.dbConnectionError' => 'No se ha podido conectar con la base de datos OpenAds.',
+  'plugins.generic.openads.headerAd' => 'Encabezado del anuncio',
+  'plugins.generic.openads.contentAd' => 'Contenido de Anuncio',
+  'plugins.generic.openads.sidebarAd' => 'Barra lateral de Anuncio',
+  'plugins.generic.openads.orientation.left' => 'Izquierda',
+  'plugins.generic.openads.orientation.centre' => 'Centro',
+  'plugins.generic.openads.orientation.right' => 'Derecha',
+); ?>

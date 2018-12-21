@@ -1,0 +1,16 @@
+<?php return array (
+  'plugins.generic.addThis.displayName' => 'AddThis',
+  'plugins.generic.addThis.description' => 'This plugin provides the addThis social media sharing for submissions.',
+  'plugins.generic.addThis.title' => 'AddThis',
+  'plugins.generic.addThis.settings' => 'Settings',
+  'plugins.generic.addThis.settings.statistics' => 'Statistics',
+  'plugins.generic.addThis.form.saved' => 'AddThis form settings saved.',
+  'plugins.generic.addThis.form.profileId' => 'AddThis Profile ID',
+  'plugins.generic.addThis.form.username' => 'AddThis Username',
+  'plugins.generic.addThis.form.password' => 'AddThis Password (required for displaying stats)',
+  'plugins.generic.addThis.form.registerLink' => '<a href="https://www.addthis.com/register">Register</a> for free in-depth analytics reports and better understand your site\'s social traffic.',
+  'plugins.generic.addThis.settings.displayStyle' => 'Please choose how AddThis should display',
+  'plugins.generic.addThis.grid.shares' => 'Shares',
+  'plugins.generic.addThis.grid.title' => 'Top Shared Links',
+  'plugins.generic.addThis.statistics.instructions' => 'This list shows your most popular shared links for the past week. For all of the possible AddThis statistics, please visit the <a href="http://www.addthis.com/analytics" target="_blank">AddThis Analytics</a> website and log in.',
+); ?>

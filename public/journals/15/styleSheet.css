@@ -1,0 +1,174 @@
+﻿#logo_univalle {	
+	background-image:url("http://www.univalle.edu.co/english/simbolos/logos/imagenes/univalle-rojopuro-159x226.gif");
+	background-size: 80px 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	float:left;
+	min-width:8%;
+	max-width:8%;
+	min-height:120px;
+	max-height:120px;
+}
+
+#link_home{
+	min-width:100%;
+	max-width:100%;
+	min-height:120px;
+	max-height:120px;
+}
+
+.date,
+.published {
+    display: none;
+}
+
+#nombre_sitio{
+	margin-left:9%; /*Este margen hace que no se encime el contenido en tu menÃƒÂºlateral, es     importante que pongas un pocos pixeles mÃƒÂ¡s que el ancho  de tu columna lateral*/
+	background-color: #FFFFFF;
+	/*background:url(http://revistas.univalle.edu.co/public/site/magazine.jpg); /* Nuestra imagen de fondo */
+	background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */	
+}
+
+.pkp_site_name a{
+	
+	color:#fff !important;
+	margin-top: 35px !important;
+	padding-left: 30px;
+	min-width:100%;
+	min-height:30px;
+	/*background-color: rgba(123,16,0,0.6) !important;*/
+	text-transform: uppercase;
+}
+.pkp_site_name {
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width:100%;
+}
+
+#lateral_numero_visible{
+
+	background-color:#F4F4F4;
+	padding-top:20px;
+
+}
+
+#lateral_numero_visible .block_developed_by{
+	
+	display: none;
+	
+}
+
+/*BLOQUE*/
+.pkp_block{
+	padding: 1px !important; 
+}
+/* BLOQUE CAMBIO DE LENGUAJE */
+.block_language{
+	padding-right: 0px !important; 
+	padding-left: 0px !important;
+}
+.block_language .content{
+
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left:20px;
+	padding-right: 20px;
+
+}
+
+.block_language .content li a{
+	
+	font-weight: bold !important;		
+	color:#840404 !important;
+
+}
+
+.block_language .title{
+	background-color: #676767;
+	
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left:20px;
+	padding-right: 20px;
+	
+	margin-bottom: 10px;
+	
+	color: #fff !important;
+}
+
+/* BLOQUE CAMBIO DE INFO */
+.block_information{
+	padding-right: 0px !important; 
+	padding-left: 0px !important;
+}
+.block_information .content{
+
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left:20px;
+	padding-right: 20px;
+
+}
+
+.block_information .content li a{
+	
+	font-weight: bold !important;		
+	color:#840404 !important;
+
+}
+
+.block_information .title{
+	background-color: #676767;
+	
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left:20px;
+	padding-right: 20px;
+	
+	margin-bottom: 10px;
+	
+	color: #fff !important;
+}
+
+
+
+.read_more{
+
+	background-color: #676767;
+	
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-left:20px;
+	padding-right: 20px;
+	
+	margin-bottom: 10px;
+	
+	min-width: 245px;
+	
+	color: #fff !important;
+
+}
+
+#pdfs_numero_visible{
+
+	margin-top:1px;
+
+}
+
+#pdfs_numero_visible .obj_announcement_summary h3{
+	border-bottom-width: 0px !important;
+}
+
+.obj_announcement_summary{
+
+	background-color:#F4F4F4;
+	margin-left: 0px !important;
+}
+
+.cmp_announcements{
+
+	margin-left: 0px !important;
+
+}

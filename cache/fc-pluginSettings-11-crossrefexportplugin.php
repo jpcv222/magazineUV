@@ -1,0 +1,8 @@
+<?php return array (
+  'automaticRegistration' => true,
+  'depositorEmail' => 'sistemas.revistas@correounivalle.edu.co',
+  'depositorName' => 'Mauricio Palacios',
+  'password' => '123revistas',
+  'testMode' => false,
+  'username' => 'uvalle',
+); ?>

@@ -1,0 +1,17 @@
+<?php return array (
+  'plugins.importexport.quickSubmit.addToExisting' => 'Añadir a un número existente:',
+  'plugins.importexport.quickSubmit.chooseDestination' => 'Destino del envío',
+  'plugins.importexport.quickSubmit.chooseDestinationDescription' => 'Seleccione si desea añadir nuevos envíos a un número existente o si prefiere colocarlos en la cola de edición.',
+  'plugins.importexport.quickSubmit.displayName' => 'Módulo QuickSubmit',
+  'plugins.importexport.quickSubmit.description' => 'Módulo para el envío en un solo paso',
+  'plugins.importexport.quickSubmit.descriptionLong' => 'Este módulo permite añadir rápidamente envíos completos a la cola de edición o directamente a un número.',
+  'plugins.importexport.quickSubmit.issueRequired' => 'Seleccione un número en el que añadir el artículo.',
+  'plugins.importexport.quickSubmit.leaveUnpublished' => 'No publicar de momento',
+  'plugins.importexport.quickSubmit.saveAndCreateAnother' => 'Guardar y crear uno nuevo',
+  'plugins.importexport.quickSubmit.submissionData' => 'Datos del envío',
+  'plugins.importexport.quickSubmit.submissionDescription' => 'Elija el archivo que se usará como galerada final para este envío.',
+  'plugins.importexport.quickSubmit.submissionRequired' => 'Debe cargar un archivo para este envío.',
+  'plugins.importexport.quickSubmit.success' => 'Se añadió el artículo',
+  'plugins.importexport.quickSubmit.successDescription' => 'Se creó el artículo con éxito.',
+  'plugins.importexport.quickSubmit.successReturn' => 'Volver al módulo QuickSubmit.',
+); ?>

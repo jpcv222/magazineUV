@@ -1,0 +1,17 @@
+<?php return array (
+  'plugins.importexport.erudit.displayName' => 'Plugin de exportación de artículos Erudit',
+  'plugins.importexport.erudit.description' => 'Exportar artículos usando el DTD inglés Erudit',
+  'plugins.importexport.erudit.cliUsage' => 'Uso: {$scriptName} {$pluginName} [xmlFileName] [journalPath] [articleId] [galleyLabel]',
+  'plugins.importexport.erudit.export' => 'Exportar datos',
+  'plugins.importexport.erudit.export.issues' => 'Exportar números',
+  'plugins.importexport.erudit.export.sections' => 'Exportar secciones',
+  'plugins.importexport.erudit.export.articles' => 'Exportar artículos',
+  'plugins.importexport.erudit.selectIssue' => 'Seleccionar número',
+  'plugins.importexport.erudit.selectArticle' => 'Seleccionar artículo',
+  'plugins.importexport.erudit.cliError' => 'ERROR:',
+  'plugins.importexport.erudit.error.unknownJournal' => 'La ruta de la revista especificada, "{$journalPath}", no existe.',
+  'plugins.importexport.erudit.export.error.couldNotWrite' => 'No ha sido posible escribir en el fichero "{$fileName}".',
+  'plugins.importexport.erudit.export.error.articleNotFound' => 'No hay ningún artículo con la ID "{$articleId}".',
+  'plugins.importexport.erudit.export.error.galleyNotFound' => 'No hay ningún galerada con la etiqueta "{$galleyLabel}".',
+  'plugins.importexport.erudit.unavailable' => 'No disponible',
+); ?>

@@ -1,0 +1,359 @@
+/**
+ * classicBlue.css
+ *
+ * Copyright (c) 2003-2011 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Classic blue theme stylesheet.
+ *
+ * $Id$
+ */
+
+body {
+	background-color: #fff;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	background-image: url("bg.jpg");
+}
+
+#body{
+	width:851px;
+	margin-left: 16%;	
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #3095C3;
+}
+
+a:active {
+	color: #3095C3;
+}
+
+a:visited {
+	color: #3095C3;
+}
+
+a:hover {
+	color: #3095C3;
+}
+
+label.error {
+	color: #f60;
+}
+
+input.defaultButton {
+	color: #EEEEFF;
+	background: #069;
+}
+
+#container {
+	font-size: 1.2em;
+}
+
+#header {
+	min-height: 100px;
+	background-color: #fff;
+	width:850px;
+	margin-left: 16%;
+}
+
+#headerTitle {
+	text-align: center;
+}
+
+#header h1 {
+	line-height: 2.5;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 2em;
+	background-color: #069;
+	color:  #fff;
+}
+
+#footer {
+	background-color: #069;
+	color:  #fff;
+}
+
+#footerContent {
+	color:  #fff;
+}
+
+#main {
+	margin-top: 15px;
+	padding-top: 0;
+	margin-top: 4px;
+	background-color: #fff;
+	/*height: 675px;*/
+}
+
+#main h2 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	background-color: #EDEDED;
+	color: #0F2D87;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px;
+    margin: 4px 3px 0 3px;
+    border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+#main h3 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+}
+
+#navbar {
+	border-bottom: 1px dotted #009999;
+	text-align: center;
+	padding-bottom: 2px;
+	width:850px;
+	margin-left: 16%;
+	margin-top:2px;
+	background-color: #009FDD;
+	color: #CCCCCC;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+}
+
+ul.menu li {
+	display: inline;
+    margin: 0;
+    padding: 0 ;
+}
+
+#navbar a{
+	background-color: #009FE0;
+    color: #CCCCCC;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 5px 15px 5px 15px;
+    margin: 4px 0 4px 0;	
+}
+
+#navbar a:hover{
+	color:#FFF;
+	text-decoration:none;
+	background-color:#00A8F0;
+	text-align: center;	
+}
+
+.caja_breadcrumbs{
+	background-color: #fff;
+	width:845px;
+	margin-left: 16%;
+	margin-top:2px;
+	padding: 3px;
+}	
+
+#breadcrumb {
+	height: 18px;
+	line-height: 1.5em;
+	text-align: left;
+	padding-top:0;
+	background-color: #EDEDED;
+    color: #0F2D87;
+    padding-left: 5px;
+    font-size: 10px;
+    border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+#breadcrumb a{
+	color: #0F2D87;
+}
+
+#content {
+	border-top: 0;
+	padding: 4px;
+	font-size: 11px;
+}
+
+#content h3 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+#content h4 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+	margin: 0.75em 1em 1em 0;
+}
+
+#content h5 {
+	text-transform: uppercase;
+}
+
+span.highlight {
+	border-bottom: 1px dotted #009999;
+}
+
+table.listing tr.highlight {
+	background: #fcff64;
+}
+
+table.listing tr.fastTracked {
+	background-color: #EEEEFF;
+}
+
+table.listing td.headseparator {
+	border-top: 1px dotted #009999;
+}
+
+table.listing td.endseparator {
+	border-top: 1px dotted #009999;
+}
+
+span.formError {
+	color: #ccc;
+}
+
+ul.formErrorList {
+	color: #ccc;
+}
+
+div.separator {
+	border-bottom: 0;
+}
+
+#rightSidebar ul, #leftSidebar ul {
+	padding-left: 0px;
+	margin: 0 0 5px 0; 	
+}
+
+#rightSidebar li, #leftSidebar li {
+	list-style-type: none;
+}
+
+#rightSidebar, #leftSidebar {
+	margin-top: 5px;
+	padding-top: 0;
+	background-color: #fff;
+}
+
+.blank{
+	width:850px;
+	margin-left: 16%;
+	margin-top:2px;
+	background-color: #fff;
+	font-size: 11px;
+}
+
+#content .tocSectionTitle{
+	background-color: inherit;
+    color: #666666;
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.tocTitle a,#articleTitle,#articleTitle h3{
+	color: #009FE0;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;	
+}
+
+table.tocArticle td.tocAuthors,#authorString em,#articleAbstract h4{
+	color: #666666;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11px;	
+}
+
+table.announcements td.headseparator,table.announcements td.endseparator  {
+    
+    background-color: #DDDDDD;
+    border: 0 solid #666;
+    color: #DDDDDD;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar input.textField, #sidebar select.selectMenu, #sidebar input.button {
+    font-size: 11px;
+}
+
+input.textField, select.selectMenu, textarea.textArea, input.uploadField {
+    background-color: #FFF;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 1em;
+}
+
+input.button {
+    background-color: #ccc;
+    font-size: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border:1px solid #ccc; 
+    cursor: pointer;
+}
+
+#sidebarHelp,#sidebarLanguageToggle,#sidebarUser,#notification,#sidebarInformation,#sidebarNavigation,#sidebarRTArticleTools,#sidebarAuthor,#sidebarSectionEditor,#sidebarEditor,#sidebarReviewer{
+	background-color: #EDEDED;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top:4px;
+    padding: 7px;	
+    border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+#sidebarHelp a,#notification a,#sidebarInformation a,#sidebarRTArticleTools a,#sidebarNavigation a{
+	color:#009FE0;	
+}
+
+#sidebarHelp a:hover,#notification a:hover,#sidebarInformation a:hover,#sidebarRTArticleTools a:hover,#sidebarNavigation a:hover{
+	color:#A7A8AA;	
+}
+
+#issues h3,#issue h4{
+	font-size: 14px;	
+	margin-bottom: 0;
+}
+
+
+#main {
+	float: left;
+	width: 660px;
+	margin-left: 0;
+	display: inline;
+	overflow: hidden;
+	font-size: 11px;
+}
+
+#rightSidebar {
+	float: right;
+	width: 180px;
+	padding: 3px;
+	font-size: 0.65em;
+	height: 100%;
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+#announcementsHome{
+	margin-bottom: 0;
+}

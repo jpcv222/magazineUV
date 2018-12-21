@@ -1,0 +1,140 @@
+/* MENU */
+#main{
+    /*padding-top: 85px !important;
+    */
+}
+#navbar{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0px 40px;
+    border: none !important;
+    top: 140px;
+    background: rgba(235,30, 0, 1) !important;
+}
+ul.menu{
+    margin: 6px 0;
+    padding: 0;
+}
+ul.menu li:first-child{
+    border-left: 1px solid #fff;
+}
+ul.menu li{
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #fff;
+    height: auto;
+    margin: 0;
+}
+#navbar a{
+    background-color: transparent !important;
+    color: white;
+    text-transform: capitalize;
+    font-size: 19px;
+    line-height: 20px;
+    letter-spacing: normal;
+}
+
+
+/* TITULO REVISTAS */
+#main h2{
+    font-family: Verdana !important;
+    color: gray;
+    font-size: 3em;
+}
+#headerTitle h1 img{
+    height: 80px !important;
+    width: auto !important;
+}
+
+
+/******** GRUPO DE REVISTAS *****/
+.journal_item {
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin: 5px;
+}
+.journal_item .journalDescription{
+    display: none;
+}
+.journal_item .journal_thumb {
+    background: gray;
+    width: 180px;
+    height: 180px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.journal_item h3{
+    background: rgba(72, 174, 176, 0.7);
+    color: white !important;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 170px;
+    height: 50px;
+    font-family: Verdana !important;
+    margin: 0 !important;
+    padding: 5px !important;
+    line-height: normal;
+    font-size: 1.65em !important;
+}
+.journal_item:nth-child(2n) h3{
+    background: rgba(93, 79, 96, 0.7) 
+}
+.journal_item:nth-child(3n) h3{
+    background: rgba(97, 188, 235, 0.7) 
+}
+.journal_item > p{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+}
+.journal_item > p > a:nth-child(2),.journal_item > p > a:nth-child(3){
+    display: none;
+}
+.journal_item > p > a{
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.journal_item > p > a:hover{
+    background: rgba(255,255,255,0.5);
+}
+
+
+
+#navbar #announcements{ width: auto !important; }
+
+
+/* PORTADAS DE LAS REVISTAS */
+#issueCoverImage img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+
+/* PAGINAS INTERNAS */
+#header {
+    background-color: white !important;
+    height: 160px;
+    padding-top: 30px;
+}
+body {
+    background: white !important;
+}
+
+

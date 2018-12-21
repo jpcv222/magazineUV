@@ -1,0 +1,16 @@
+<?php return array (
+  'plugins.generic.addThis.displayName' => 'AddThis',
+  'plugins.generic.addThis.description' => 'Este complemento permite el uso compartido de addthis en las redes sociales para las propuestas',
+  'plugins.generic.addThis.title' => 'AddThis',
+  'plugins.generic.addThis.settings' => 'Preferéncias',
+  'plugins.generic.addThis.settings.statistics' => 'Estadísticas',
+  'plugins.generic.addThis.form.saved' => 'Archivo de ajustes de AddThis guardado',
+  'plugins.generic.addThis.form.profileId' => 'Identificación del perfil AddThis',
+  'plugins.generic.addThis.form.username' => 'Nombre de usuario de AddThis',
+  'plugins.generic.addThis.form.password' => 'Contraseña de AddThis (necesaria para mostrar estadísticas)',
+  'plugins.generic.addThis.form.registerLink' => '<a href="https://www.addthis.com/register">Regístrese</a> para obtener informes de análisis exahustivos y entender mejor el tráfico social de su sitio web.',
+  'plugins.generic.addThis.settings.displayStyle' => 'Por favor, escoge la forma en que Addthis debería visualizarse',
+  'plugins.generic.addThis.grid.shares' => 'Compartidos',
+  'plugins.generic.addThis.grid.title' => 'Enlaces más compartidos',
+  'plugins.generic.addThis.statistics.instructions' => 'Esta lista muestra los enlaces más compartidos durante la última semana. Para visualizar todas las estadísticas de AddThis, visite el sitio web <a href="http://www.addthis.com/analytics" target="_blank">AddThis Analytics</a> e inicie sesión.',
+); ?>

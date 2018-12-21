@@ -1,0 +1,18 @@
+<?php return array (
+  'plugins.paymethod.paypal.displayName' => 'Pago via Paypal',
+  'plugins.paymethod.paypal.settings.paypalenable' => 'Activar PayPal',
+  'plugins.paymethod.paypal.settings.paypalurl' => 'URL del IPN',
+  'plugins.paymethod.paypal.settings.paypalurl.description' => 'Esta es la dirección (URL) del servicio Instant Payment Notification (IPN) de PayPal. Para pruebas, utilice <u>https://www.sandbox.paypal.com/cgi-bin/webscr</u>; para sistemas en producción, utilice <u>https://www.paypal.com/cgi-bin/webscr</u>.',
+  'plugins.paymethod.paypal.settings.selleraccount' => 'Cuenta de vendedor',
+  'plugins.paymethod.paypal.settings.selleraccount.description' => 'Este es el nombre de cuenta PayPal del vendedor, habitualmente una dirección de email. Asegúrese de activar Instant Payment Notification (IPN) en su perfil de cuenta de vendedor en PayPal.',
+  'plugins.paymethod.paypal.settings.curlNotInstalled' => 'Aviso: el soporte para CURL no está instalado en PHP. El pago via PayPal necesita la librería CURL para funcionar.',
+  'plugins.paymethod.paypal.settings' => 'Opciones PayPal',
+  'plugins.paymethod.paypal' => 'Pago via PayPal',
+  'plugins.paymethod.paypal.description' => 'PayPal permite a los usuarios, miembros o no de PayPal, utilizar la mayoría de las tarjetas de crédito. El responsable de la revista debe crear una <a href="http://www.paypal.com" target="_new">PayPal Business Account</a>.',
+  'plugins.paymethod.paypal.warning' => 'Pulse el botón "Continuar" de debajo para ir a la página de PayPal, donde puede usar una tarjeta de crédito para pagar la tarifa. Utilice el botón "Return to Merchant" después de efectuar el pago para volver a estas páginas.',
+  'plugins.paymethod.paypal.purchase.title' => 'Título',
+  'plugins.paymethod.paypal.purchase.fee' => 'Tarifa',
+  'plugins.paymethod.paypal.purchase.description' => 'Descripción',
+  'plugins.paymethod.paypal.purchase.cancelled' => 'Su compra ha sido cancelada.',
+  'plugins.paymethod.paypal.purchase.cancelled.title' => 'Compra Cancelada',
+); ?>

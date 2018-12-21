@@ -1,0 +1,17 @@
+<?php return array (
+  'plugins.importexport.quickSubmit.addToExisting' => 'Añadir a un número existente:',
+  'plugins.importexport.quickSubmit.chooseDestination' => 'Destino del envío',
+  'plugins.importexport.quickSubmit.chooseDestinationDescription' => 'Seleccionar cuando añadir nuevos envíos a un número existente o dejarlos en la cola de edición.',
+  'plugins.importexport.quickSubmit.displayName' => 'Plugin QuickSubmit',
+  'plugins.importexport.quickSubmit.description' => 'Plugin de envío en un paso',
+  'plugins.importexport.quickSubmit.descriptionLong' => 'Este plugin te permte enviar rápidamente presentaciones a la cola de edición o directamente a un número.',
+  'plugins.importexport.quickSubmit.issueRequired' => 'Tienes que seleccionar un número para añadir el artículo a él.',
+  'plugins.importexport.quickSubmit.leaveUnpublished' => 'Dejar sin publicar',
+  'plugins.importexport.quickSubmit.saveAndCreateAnother' => 'Grabar y Crear Otro',
+  'plugins.importexport.quickSubmit.submissionData' => 'Submission Data',
+  'plugins.importexport.quickSubmit.submissionDescription' => 'Escoger el fichero para ser usado como el fichero galerada final para esta presentación.',
+  'plugins.importexport.quickSubmit.submissionRequired' => 'Tienes que subir un fichero para esta presentación.',
+  'plugins.importexport.quickSubmit.success' => 'Artículo Añadido',
+  'plugins.importexport.quickSubmit.successDescription' => 'La creación del Artículo ha terminado con éxito.',
+  'plugins.importexport.quickSubmit.successReturn' => 'Volver al plugin QuickSubmit.',
+); ?>

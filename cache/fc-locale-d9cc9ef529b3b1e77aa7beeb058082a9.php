@@ -1,0 +1,17 @@
+<?php return array (
+  'plugins.generic.googleAnalytics.displayName' => 'Complemento para Google Analytics',
+  'plugins.generic.googleAnalytics.description' => 'Integre OJS con Google Analytics, el sistema de análisis de tráfico web de Google. Requiere una cuenta previa creada en Google Analytics. Vea la página de <a href="http://www.google.com/analytics/" title="Google Analytics site">Google Analytics </a> para más información.',
+  'plugins.generic.googleAnalytics.manager.settings' => 'Opciones',
+  'plugins.generic.googleAnalytics.manager.googleAnalyticsSettings' => 'Opciones de Google Analytics',
+  'plugins.generic.googleAnalytics.manager.settings.description' => '<p>Con este complemento activado puede usar Google Analytics para recoger y analizar datos de tráfico web de su revista. Requiere una cuenta previa creada en Google Analytics. Vea la página de <a href="http://www.google.com/analytics/" title="Google Analytics site">Google Analytics </a> para más información.</p>',
+  'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Número de cuenta',
+  'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions' => 'En Google Analytics, pulse sobre "Check Status" para ver el código de seguimiento de su página. El número de cuenta aparece en el código de seguimiento: _uacct = "###". Introduzca los caracteres que corresponden a ###.',
+  'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Por favor, intoduzca un número de cuenta.',
+  'plugins.generic.googleAnalytics.manager.settings.trackingCode' => 'Código de seguimiento',
+  'plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired' => 'Por favor seleccione un código de seguimiento a utilizar.',
+  'plugins.generic.googleAnalytics.manager.settings.urchin' => 'Código de seguimiento legado (urchin.js)',
+  'plugins.generic.googleAnalytics.manager.settings.ga' => 'Código de seguimiento nuevo (ga.js)',
+  'plugins.generic.googleAnalytics.authorAccount' => 'Número de cuenta de Google Analytics',
+  'plugins.generic.googleAnalytics.authorAccountInvalid' => 'Uno o más números de cuenta de Google Analytics introducidos para presentaciones de autores no son válidos.',
+  'plugins.generic.googleAnalytics.authorAccount.description' => 'Para realizar el seguimiento del número de lectores del artículo a través de Google Analytics, introduzca un número de cuenta (por ejemplo, UA-xxxxxx-x).',
+); ?>

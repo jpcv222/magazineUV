@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2013-2017 Simon Fraser University Library
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the es_AR locale.
+  *
+  -->
+
+<locale name="es_AR" full_name="Español (Argentina)">
+	<message key="plugins.importexport.quickSubmit.displayName">Plugin QuickSubmit</message>
+	<message key="plugins.importexport.quickSubmit.description">Plugin de envío en un paso</message>
+	<message key="plugins.importexport.quickSubmit.success">Artículo Añadido</message>
+	<message key="plugins.importexport.quickSubmit.successDescription">La creación del Artículo ha terminado con éxito.</message>
+	<message key="plugins.importexport.quickSubmit.successReturn">Volver al plugin QuickSubmit.</message>
+</locale>
